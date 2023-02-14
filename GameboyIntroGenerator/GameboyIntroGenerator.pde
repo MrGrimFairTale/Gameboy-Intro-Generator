@@ -1,13 +1,13 @@
 import gifAnimation.*;
 import processing.pdf.*;
 
-final String TITLE = "Game boy";
-final String SUBTITLE = "nintendo";
+final String TITLE = "Willylover1212";
+final String SUBTITLE = "I love fortnite";
 int TEXTSIZE = 0;
 final int ANIMATIONLENGTH = 4;
 final int FRAMERATE = 60;
-final boolean SAVEGIF = false; //helpful for previewing without saving
-final boolean SAVEFRAMES = false; //Save the frames to create a non-gif video with processing's movie maker
+final boolean SAVEGIF = true; //helpful for previewing without saving
+final boolean SAVEFRAMES = true; //Save the frames to create a non-gif video with processing's movie maker
 
 PFont TitleFont;
 PFont SubTitleFont;
@@ -23,7 +23,7 @@ ArrayList<Integer> palette; //The palette of colors to change through
 PGraphics textLayer;
 PGraphics effectLayer;
 int secs = 0;
-boolean startedDrawingSubtitle = false;
+boolean startedDrawingSubtitle = true;
 
 GifMaker gif;
 
